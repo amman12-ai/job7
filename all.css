@@ -1,0 +1,344 @@
+body {
+  background-color: #f4f6f9;
+}
+.navbar-bg {
+  margin-bottom: 10px;
+}
+
+/* Carousel Image Styling */
+.carousel-img {
+  height: 450px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Overlay on Carousel */
+.carousel-overlay {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  border-radius: 12px;
+  z-index: 10;
+  backdrop-filter: blur(4px);
+}
+
+.carousel-overlay img {
+  border: 2px solid #fff;
+}
+
+.carousel-overlay #site-name a:hover {
+  text-decoration: underline;
+  color: #00bfff;
+  transition: 0.3s;
+}
+
+/* Header */
+.header-bg {
+  background: linear-gradient(90deg, #d144b7, #3d75e3);
+  padding-top: 20px !important;   
+  padding-bottom: 10px !important;
+  margin-bottom: 5 !important;    
+}
+
+
+/* Navbar */
+.navbar-bg {
+  background-color: #01080fe4;
+}
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+/* Carousel */
+#mainCarousel {
+  margin-top: 20px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+#mainCarousel img {
+  height: 480px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+/* Sidebar */
+.sidebar {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.owner-bg,
+.manager-bg {
+  background-color: #6c5ce7;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.owner-img,
+.manager-img {
+  width: 40%;
+}
+
+/* Footer */
+.footer-bg {
+  background-color: #003366;
+}
+a.text-light:hover {
+  text-decoration: underline;
+}
+
+/* Important Links */
+.important-links a {
+  display: inline-block;
+  color: #007bff;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 18px;
+}
+.important-links a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+/* === Carousel Overlay === */
+.carousel-overlay {
+  position: absolute;
+  top: 60px;
+  left: 25px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+
+ 
+  background: none !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+
+.header-site-info {
+  margin-top: 5px;
+}
+
+#site-name a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#site-name a:hover {
+  text-decoration: underline;
+}
+.about-bg h1 {
+  background-color: #0d47a1; 
+  color: #fff;               
+  display: inline-block;   
+  padding: 10px 20px;      
+  border-radius: 8px;        
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3); 
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.gallery-bg {
+  background: linear-gradient(90deg, #198754, #28a745);
+  color: white;
+  padding: 10px 0;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+
+.photo_gallary img {
+  border-radius: 10px;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  transition: transform 2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+/* 🔹 Photo Gallery Background (CEO style) */
+.gallery-bg {
+  background: linear-gradient(90deg, #198754, #28a745);
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+/* 🔹 Gallery Background (CEO-style) */
+.photo-gallery-bg {
+  background: linear-gradient(135deg, #1b1987, #6d2d1a);
+  color: white;
+}
+
+/* 🔹 Photo Gallery Hover Zoom Effect */
+.photo_gallary {
+  border-radius: 10px;
+  position: relative;
+}
+
+.photo_gallary img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.8s ease, box-shadow 0.6s ease;
+  cursor: pointer;
+}
+
+.photo_gallary img:hover {
+  transform: scale(1.2);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Contact Section Background */
+.contact-section {
+  background: linear-gradient(135deg, #e9fce9, #f8fff8);
+}
+
+/* Box Style */
+.contact-box {
+  background: rgba(255, 255, 255, 0.95);
+  border-left: 5px solid #198754;
+  border-radius: 15px;
+  transition: transform 0.3s;
+}
+
+.contact-box:hover {
+  transform: translateY(-5px);
+}
+
+/* Input Focus */
+.form-control:focus {
+  border-color: #198754;
+  box-shadow: 0 0 5px #198754;
+}
+
+/* Button */
+.btn-success {
+  background: #198754;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-success:hover {
+  background: #157347;
+  transform: scale(1.03);
+}
+
+/* Map Style */
+.map-container {
+  max-width: 600px;
+  height: 250px;
+}
+
+button[type="submit"], 
+.btn-search {
+  background: linear-gradient(135deg, #dc4193, #2b4eff);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+button[type="submit"]:hover, 
+.btn-search:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+/* 🔹 Photo Gallery Hover Effect */
+.photo_gallary {
+  overflow: hidden; /* Prevent image from overflowing */
+  border-radius: 5px;
+}
+
+.photo_gallary img {
+  width: 100%;
+  border-radius: 5px;
+  transition: transform 0.6s ease, box-shadow 0.4s ease;
+  cursor: pointer;
+}
+
+.photo_gallary img:hover {
+  transform: scale(1.2);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* 🎨 Form label color styling */
+.form-label {
+  font-weight: 600;
+  color: #444aea; /* মূল নীল রঙ */
+  transition: color 0.3s ease;
+}
+
+/* Hover করলে হালকা গোলাপি হয়ে যাবে */
+.form-label:hover {
+  color: #dc4193;
+}
+
+/* Input box-এর ভিতরের placeholder-এর রঙ */
+.form-control::placeholder {
+  color: #888;
+  opacity: 0.8;
+}
+
+/* Input-এর টেক্সটের রঙ */
+.form-control {
+  color: #333;
+}
+
+/* Navbar link hover and active effect */
+.navbar-nav .nav-link {
+  color: white !important;
+  font-weight: 500;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+/* 🔹 When hovered */
+.navbar-nav .nav-link:hover {
+  background-color: #0d6efd; /* Bootstrap blue */
+  color: white !important;
+}
+
+/* 🔹 When active (clicked/current page) */
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:focus {
+  background-color: #198754; /* green shade */
+  color: white !important;
+}
+/* 🔹 Dropdown menu items */
+.dropdown-menu .dropdown-item {
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 5px;
+}
+
+.dropdown-menu .dropdown-item {
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 5px;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #0d6efd;
+  color: rgb(200, 49, 49);
+}
+
+.dropdown-menu .dropdown-item:active {
+  background-color: #198754;
+  color: rgb(158, 43, 43);
+}
+
